@@ -1,0 +1,18 @@
+/*------------------------------------*\
+  #Button ( Primary )
+\*------------------------------------*/
+button,
+.wp-block-button__link,
+.c-btn,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    &:hover,
+    &:focus,
+    &:active {
+    }
+
+    &:visited,
+    &:focus {
+    }
+}

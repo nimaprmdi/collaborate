@@ -1,0 +1,25 @@
+{
+  "name": "collaborate",
+  "version": "1.0.0",
+  "description": "collaborate is a a minimal & mobile-first theme. The best choice for people who want to publish their projects.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.54.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html-template"
+  ],
+  "author": "",
+  "license": "ISC"
+}

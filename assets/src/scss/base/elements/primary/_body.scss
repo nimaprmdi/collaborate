@@ -1,0 +1,9 @@
+* {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    transition: $global-transition;
+}
+
+body {
+    transition: $global-transition;
+}

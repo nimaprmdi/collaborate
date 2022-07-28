@@ -4,6 +4,28 @@ collaborate is a a minimal & mobile-first theme. The best choice for people who 
 
 ## Features
 
+-   Feature 1
+-   Feature 2
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/soli-exe"><img src="https://avatars.githubusercontent.com/u/76008453?v=4" width="100px;" alt=""/><br /><sub><b>Soliexe</b></sub></a><br /><a href="https://github.com/soli-exe" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Theme installation
 
 ## Theme structure

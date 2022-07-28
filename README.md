@@ -17,7 +17,7 @@ Thanks goes to these wonderful people
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/soli-exe"><img src="https://avatars.githubusercontent.com/u/76008453?v=4" width="100px;" alt=""/><br /><sub><b>Soliexe</b></sub></a><br /><a href="https://github.com/soli-exe" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/soli-exe"><img src="https://avatars.githubusercontent.com/u/76008453?v=4" width="100px;" alt=""/><br /><sub><b>Soliexe</b></sub></a><br /><a href="mailto:sja.exe@gmail.com" title="mail">📧</a></td>
   </tr>
 </table>
 

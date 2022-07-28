@@ -9,7 +9,7 @@ collaborate is a a minimal & mobile-first theme. The best choice for people who 
 ## Theme structure
 
 ```shell
-themes/collaborate/                # → Root of your theme
+themes/collaborate/              # → Root of your theme
 │── assets/                      # → Theme internal assets
 │   ├── css/                     # → Compressed css file
 │   ├── fonts/                   # → Theme default fonts ( Customizable from kirki )

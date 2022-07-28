@@ -1,8 +1,6 @@
-# collaborate - [Demo](https://demo.vitathemes.com/collaborate/)
+# collaborate
 
 collaborate is a a minimal & mobile-first theme. The best choice for people who want to publish their projects.
-
-![Home Page](screenshot.png)
 
 ## Features
 

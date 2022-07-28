@@ -34,7 +34,7 @@ Thanks goes to these wonderful people
 themes/collaborate/              # → Root of your theme
 │── assets/                      # → Theme internal assets
 │   ├── css/                     # → Compressed css file
-│   ├── fonts/                   # → Theme default fonts ( Customizable from kirki )
+│   ├── fonts/                   # → Theme default fonts
 │   ├── images/                  # → Theme compressed images
 │   ├── js/                      # → Theme Minified javascript files
 │   └── src/                     # → Theme source files

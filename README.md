@@ -48,6 +48,8 @@ Thanks goes to these wonderful people
                     </sub>
                 </a>
                 <br />
+                <a href="mailto:#" title="mail">
+                </a>
             </td>
             <td align="center">
                 <a href="https://github.com/sinazarrin">

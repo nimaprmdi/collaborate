@@ -17,8 +17,8 @@ Thanks goes to these wonderful people
 <!-- markdownlint-disable -->
 <table>
     <tbody>
-        <tr>
-            <td align="center">
+        <tr style="display:flex;">
+            <td style="max-width:150px" align="center">
                 <a href="https://github.com/soli-exe">
                     <img
                         src="https://avatars.githubusercontent.com/u/76008453?v=4"
@@ -35,7 +35,7 @@ Thanks goes to these wonderful people
                     📧
                 </a>
             </td>
-            <td align="center">
+            <td style="max-width:150px" align="center">
                 <a href="https://github.com/Amirhosseinalpha">
                     <img
                         src="https://avatars.githubusercontent.com/u/85582678?v=4"
@@ -44,14 +44,14 @@ Thanks goes to these wonderful people
                     />
                     <br />
                     <sub>
-                        <b>AmirHosseinmohammadi</b>
+                        <b>AmirHossein mohammadi</b>
                     </sub>
                 </a>
                 <br />
                 <a href="mailto:#" title="mail">
                 </a>
             </td>
-            <td align="center">
+            <td style="max-width:150px" align="center">
                 <a href="https://github.com/sinazarrin">
                     <img
                         src="https://avatars.githubusercontent.com/u/93072821?v=4"
@@ -68,7 +68,7 @@ Thanks goes to these wonderful people
                     📧
                 </a>
             </td>
-            <td align="center">
+            <td style="max-width:150px" align="center">
                 <a href="https://github.com/Whh-32">
                     <img
                         src="https://avatars.githubusercontent.com/u/94436346?v=4"
@@ -85,7 +85,7 @@ Thanks goes to these wonderful people
                     📧
                 </a>
             </td>
-            <td align="center">
+            <td style="max-width:150px" align="center">
                 <a href="https://github.com/rouzbeh-tl">
                     <img
                         src="https://avatars.githubusercontent.com/u/95648052?v=4"

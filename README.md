@@ -16,32 +16,92 @@ Thanks goes to these wonderful people
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tbody>
-  <tr>
-    <td><a href="https://github.com/soli-exe"><img src="https://avatars.githubusercontent.com/u/76008453?v=4" width="100px;" alt=""/><br /><sub><b>Soliexe</b></sub></a><br /><a href="mailto:sja.exe@gmail.com" title="mail">📧</a></td>
-  </tr>
-
-  <tr>
-    <td><a href="https://github.com/Amirhosseinalpha"><img src="https://avatars.githubusercontent.com/u/85582678?v=4" width="100px;" alt=""/><br /><sub><b>AmirHosseinmohammadi</b></sub></a><br /></td>
-  </tr>
-  
-  <tr>
-    <td><a href="https://github.com/sinazarrin"><img src="https://avatars.githubusercontent.com/u/93072821?v=4" width="100px;" alt=""/><br /><sub><b>sinazarrin</b></sub></a><br /><a href="mailto:goldmontain8@gmail.com" title="mail">📧</a></td>
-  </tr>
-
-  <tr>
-    <td><a href="https://github.com/Whh-32"><img src="https://avatars.githubusercontent.com/u/94436346?v=4" width="100px;" alt=""/><br /><sub><b>Amirhossein Lashkari
-  </b></sub></a><br /><a href="mailto:am.lashkari2017@gmail.com" title="mail">📧</a></td>
-  </tr>
-
-  <tr>
-    <td><a href="https://github.com/rouzbeh-tl"><img src="https://avatars.githubusercontent.com/u/95648052?v=4" width="100px;" alt=""/><br /><sub><b>rouzbeh
-  </b></sub></a><br /></td>
-  </tr>
-  </tbody>
+    <tbody>
+        <tr>
+            <td align="center">
+                <a href="https://github.com/soli-exe">
+                    <img
+                        src="https://avatars.githubusercontent.com/u/76008453?v=4"
+                        width="100px;"
+                        alt=""
+                    />
+                    <br />
+                    <sub>
+                        <b>Soliexe</b>
+                    </sub>
+                </a>
+                <br />
+                <a href="mailto:sja.exe@gmail.com" title="mail">
+                    📧
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Amirhosseinalpha">
+                    <img
+                        src="https://avatars.githubusercontent.com/u/85582678?v=4"
+                        width="100px;"
+                        alt=""
+                    />
+                    <br />
+                    <sub>
+                        <b>AmirHosseinmohammadi</b>
+                    </sub>
+                </a>
+                <br />
+            </td>
+            <td align="center">
+                <a href="https://github.com/sinazarrin">
+                    <img
+                        src="https://avatars.githubusercontent.com/u/93072821?v=4"
+                        width="100px;"
+                        alt=""
+                    />
+                    <br />
+                    <sub>
+                        <b>sinazarrin</b>
+                    </sub>
+                </a>
+                <br />
+                <a href="mailto:goldmontain8@gmail.com" title="mail">
+                    📧
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Whh-32">
+                    <img
+                        src="https://avatars.githubusercontent.com/u/94436346?v=4"
+                        width="100px;"
+                        alt=""
+                    />
+                    <br />
+                    <sub>
+                        <b>Amirhossein Lashkari</b>
+                    </sub>
+                </a>
+                <br />
+                <a href="mailto:am.lashkari2017@gmail.com" title="mail">
+                    📧
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/rouzbeh-tl">
+                    <img
+                        src="https://avatars.githubusercontent.com/u/95648052?v=4"
+                        width="100px;"
+                        alt=""
+                    />
+                    <br />
+                    <sub>
+                        <b>rouzbeh</b>
+                    </sub>
+                </a>
+                <br />
+            </td>
+        </tr>
+    </tbody>
 </table>
-
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

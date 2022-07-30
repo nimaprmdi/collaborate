@@ -1,6 +1,6 @@
 # collaborate
 
-collaborate is a a minimal & mobile-first theme. The best choice for people who want to publish their projects.
+A simple HTML, CSS, JS theme with purpose collabration and Team work. Highly welcoming to any collabration.
 
 ## Features
 
@@ -31,6 +31,11 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center"><a href="https://github.com/Whh-32"><img src="https://avatars.githubusercontent.com/u/94436346?v=4" width="100px;" alt=""/><br /><sub><b>Amirhossein Lashkari
   </b></sub></a><br /><a href="mailto:am.lashkari2017@gmail.com" title="mail">📧</a></td>
+  </tr>
+
+  <tr>
+    <td align="center"><a href="https://github.com/rouzbeh-tl"><img src="https://avatars.githubusercontent.com/u/95648052?v=4" width="100px;" alt=""/><br /><sub><b>rouzbeh
+  </b></sub></a><br /></td>
   </tr>
   
 </table>

@@ -129,6 +129,7 @@ themes/collaborate/              # → Root of your theme
 -   Run `npm install` from the theme directory to install dependencies
 -   Run `gulp` from the root of theme directory and it's starting to watch any changes in scss files from the `sass` folder
 -   It is important that you install `gulp`,`browser-sync`,`gulp-rename`,`gulp-concat`,`gulp-autoprefixer`,`gulp-sass`, `sass`, `node-sass`
+-   Also you can use `VSCode` and `live server` extenstion to render this website or any other extenstion
 
 ## License
 

@@ -3,16 +3,39 @@
 \*------------------------------------*/
 button,
 .wp-block-button__link,
-.c-btn,
+.o-btn,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+    border-radius: 999px;
+    background-color: $collaborate_state_info_color;
+    color: $collaborate_white;
+    text-decoration: none;
+    padding: 9px 30px;
+    text-transform: capitalize;
+
     &:hover,
     &:focus,
     &:active {
+        cursor: pointer;
+        background-color: $collaborate_secondary_btn_color;
     }
 
     &:visited,
     &:focus {
     }
+}
+
+.o-btn--secondary {
+    background-color: $collaborate_secondary_btn_color;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $collaborate_state_info_color;
+    }
+}
+
+.o-btn--wide {
+    padding: 19px 100px;
 }

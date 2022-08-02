@@ -1,6 +1,6 @@
 .text-massive {
     font-size: rem(90px);
-    line-height: rem(36px);
+    line-height: rem(70px);
     font-weight: 700;
     font-family: $collaborate_main_font;
 }
@@ -8,7 +8,7 @@
 h1,
 .h1 {
     font-size: rem(75px);
-    line-height: rem(36px);
+    line-height: rem(60px);
     font-weight: 700;
     font-family: $collaborate_main_font;
 }
@@ -16,7 +16,7 @@ h1,
 h2,
 .h2 {
     font-size: rem(50px);
-    line-height: rem(36px);
+    line-height: rem(50px);
     font-weight: 700;
     font-family: $collaborate_main_font;
 }
@@ -40,7 +40,7 @@ h4,
 .h4--small {
     font-size: rem(20px);
     line-height: rem(20px);
-    font-weight: 500;
+    font-weight: 700;
     font-family: $collaborate_main_font;
 }
 
@@ -66,5 +66,5 @@ h3,
 h4,
 h5,
 h6 {
-    word-break: break-all;
+    word-break: break-word;
 }

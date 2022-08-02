@@ -631,6 +631,7 @@ h6 {
   color: #004b62;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 240px;
 }
 
 .c-join-us {

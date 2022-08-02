@@ -1,0 +1,40 @@
+/*------------------------------------*\
+  #Goals
+\*------------------------------------*/
+.c-goals {
+    width: 100%;
+    background-color: $collaborate_secondary_error_error;
+    margin-top: 43px;
+    padding-bottom: 32px;
+}
+
+.c-goals__title {
+    color: $collaborate_primary_color;
+    text-align: center;
+    margin: 0;
+    padding-top: 43px;
+}
+
+.c-goals__collaborate {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 88px;
+}
+
+.c-goals__item {
+    width: 250px;
+    margin: 0px 72px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.c-goals__desc {
+    width: 100%;
+    color: $collaborate_primary_color;
+    text-align: center;
+    letter-spacing: 0.02em;
+}

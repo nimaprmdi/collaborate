@@ -441,63 +441,63 @@ input[type=search]::-webkit-search-results-decoration {
   # block
 \*------------------------------------*/
 .text-massive {
-  font-size: 5.625rem;
-  line-height: 4.375rem;
+  font-size: 90px;
+  line-height: 70px;
   font-weight: 700;
   font-family: "inter";
 }
 
 h1,
 .h1 {
-  font-size: 4.6875rem;
-  line-height: 3.75rem;
+  font-size: 75px;
+  line-height: 60px;
   font-weight: 700;
   font-family: "inter";
 }
 
 h2,
 .h2 {
-  font-size: 3.125rem;
-  line-height: 3.125rem;
+  font-size: 50px;
+  line-height: 50px;
   font-weight: 700;
   font-family: "inter";
 }
 
 h3,
 .h3 {
-  font-size: 1.9375rem;
-  line-height: 2.125rem;
+  font-size: 31px;
+  line-height: 34px;
   font-weight: 700;
   font-family: "inter";
 }
 
 h4,
 .h4 {
-  font-size: 1.75rem;
-  line-height: 2.25rem;
+  font-size: 28px;
+  line-height: 36px;
   font-weight: 500;
   font-family: "inter";
 }
 
 .h4--small {
-  font-size: 1.25rem;
-  line-height: 1.25rem;
+  font-size: 20px;
+  line-height: 20px;
   font-weight: 700;
   font-family: "inter";
 }
 
 h5,
 .h5 {
-  font-size: 1rem;
-  line-height: 1.1875rem;
+  font-size: 16px;
+  line-height: 19px;
   font-weight: 700;
   font-family: "inter";
 }
 
 h6,
 .h6 {
-  font-size: 0.9375rem;
-  line-height: 2.125rem;
+  font-size: 15px;
+  line-height: 34px;
   font-weight: 400;
   font-family: "inter";
 }

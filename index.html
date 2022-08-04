@@ -5,9 +5,49 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <script src="https://kit.fontawesome.com/6225553e61.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/header.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
     </head>
     <body>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__wrapper">
+                        <a href="#" class="app-logo">
+                            <img src="./assets/images/header-logo.svg" alt="Camping Web" class="app-logo__img" />
+                        </a>
+                        <ul class="menu">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link menu__link--active">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">instructores</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Comunidad</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Rutians</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__links">
+                        <a href="#" class="header__link">Registrate</a>
+                        <a href="#" class="header__link header__link--border">iniciar sesion</a>
+                    </div>
+                    <div class="nav__btn">
+                        <span class="nav__btn-line"></span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
         <div class="c-hero">
             <h1 class="c-hero__title text-massive">Your body is art</h1>
             <h1 class="c-hero__title__secondary">move for yourself</h1>
@@ -41,5 +81,30 @@
             <p class="c-join-us__title c-join-us__title--space-top h2">Move because we love each other,</p>
             <p class="c-join-us__title h2">Not because we hate each <span class="c-join-us__colorful">other.</span></p>
         </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <img src="./assets/images/logo-footer.svg" alt="Camping Web" class="footer-logo__img" />
+            </div>
+
+            <div class="icon">
+                <ul class="socials">
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header__btn">
+                <a href="#" class="header__btns">Registrate</a>
+                <a href="#" class="header__btns header__link--border">iniciar sesion</a>
+            </div>
+        </footer>
     </body>
 </html>

@@ -6,5 +6,6 @@
 
 body {
     transition: $global-transition;
-    font-family: $collaborate_main_font;
+    font-family: $collaborate_main_font !important;
+    position: relative !important;
 }

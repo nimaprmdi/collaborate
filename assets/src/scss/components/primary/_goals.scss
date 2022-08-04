@@ -26,10 +26,14 @@
 .c-goals__item {
     width: 250px;
     margin: 0px 72px;
-
+    margin-bottom: 32px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    @include mq($from: tablet) {
+        margin-bottom: 0px;
+    }
 }
 
 .c-goals__desc {

@@ -5,6 +5,7 @@
     width: 100%;
     height: 640px;
     background: linear-gradient(#e0bc71, #d9b15a);
+    position: relative;
 
     &::before {
         content: " ";

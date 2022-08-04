@@ -40,6 +40,18 @@ const vendorScriptsTask = (cb) => {
     cb();
 };
 
+const buildHtml = (cb) => {
+    return gulp.src(["./index.html", "./routines.html"]).pipe(gulp.dest("./build"));
+
+    cb();
+};
+
+const buildAssets = () => {
+    return gulp.src(["./assets/**", "!./assets/src/**"]).pipe(gulp.dest("./build/assets"));
+
+    cb();
+};
+
 function liveServerTask(cb) {
     // browserSync.init({
     //     proxy: "127.0.0.1/",
@@ -50,4 +62,12 @@ function liveServerTask(cb) {
     cb();
 }
 
-exports.default = series(sassTask, cssConcatExternalTask, mainScriptsTask, vendorScriptsTask, liveServerTask);
+exports.default = series(
+    sassTask,
+    cssConcatExternalTask,
+    mainScriptsTask,
+    vendorScriptsTask,
+    liveServerTask,
+    buildHtml,
+    buildAssets
+);

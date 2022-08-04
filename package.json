@@ -18,7 +18,7 @@
     "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "deploy": "gh-pages -d index.html"
+        "deploy": "gh-pages -d build"
     },
     "keywords": [
         "html-template"

@@ -1,0 +1,112 @@
+/*------------------------------------*\
+  #Routines
+\*------------------------------------*/
+.c-routines {
+    width: 100%;
+    margin-top: 75px;
+}
+
+.c-routines__title {
+    margin: 0;
+    text-align: center;
+    color: $collaborate_state_info_color;
+}
+
+.c-routnies__cats {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include mq($from: tablet) {
+        margin-top: 114px;
+    }
+}
+
+.c-routines__cat {
+    width: 160px;
+    height: 50px;
+    background-color: $collaborate_secondary_btn_color;
+    margin: 16px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: $collaborate_white;
+
+    @include mq($from: desktop-xmd) {
+        margin: 0px 50px;
+    }
+}
+
+.c-routines__cat.active {
+    background-color: $collaborate_primary_accent_color;
+}
+
+.c-routines__posts {
+    width: 100%;
+    margin-top: 50px;
+    padding: 0px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include mq($from: tablet) {
+        margin-top: 150px;
+
+        padding: 0px 100px;
+    }
+}
+
+.c-routines__post {
+    width: 360px;
+    height: 300px;
+    margin: 0px 37.5px;
+    margin-bottom: 32px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    @include mq($from: tablet) {
+        margin-bottom: 95px;
+    }
+}
+
+.c-routines__meta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-routines__avatar {
+    width: 70px;
+    max-width: 70px;
+}
+
+.c-routines__avatar-img {
+    margin-left: 18px;
+    max-width: 70px;
+    height: auto;
+}
+
+.c-routines__context {
+    width: calc(100% - 99px);
+    margin-left: 10px;
+}
+
+.c-routines__context__title {
+    color: $collaborate_primary_accent_color;
+    margin: 0;
+}
+
+.c-routines__context__meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-routines__profile-name {
+    color: $collaborate_primary_color;
+}
+
+.c-routines__profile-name--has-space {
+    margin-right: 30px;
+}

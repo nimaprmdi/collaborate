@@ -1098,6 +1098,12 @@ footer div {
   margin-left: 5rem;
 }
 
+.footer-social__icon {
+  margin: 0 8px;
+  width: 35px;
+  height: 35px;
+}
+
 /* .header__links{
 margin-left: 80rem;
 margin-bottom: 5rem;

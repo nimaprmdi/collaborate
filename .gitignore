@@ -10,4 +10,6 @@ jspm_packages/
 bower_components
 
 # phpStorm
-.idea
+.idea/
+.vscode/
+.vscode

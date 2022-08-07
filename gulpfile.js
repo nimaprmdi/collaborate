@@ -31,12 +31,21 @@ const cssConcatExternalTask = (cb) => {
 };
 
 const mainScriptsTask = (cb) => {
-    return gulp.src("./assets/src/js/main.js").pipe(concat("main.js")).pipe(gulp.dest("./assets/js"));
+    return gulp
+        .src("./assets/src/js/main.js")
+        .pipe(concat("main.js"))
+        .pipe(gulp.dest("./assets/js"));
     cb();
 };
 
 const vendorScriptsTask = (cb) => {
-    return gulp.src(["./assets/src/js/vendor/vendor.js"]).pipe(concat("vendors.js")).pipe(gulp.dest("./assets/js"));
+    return gulp
+        .src([
+            "./node_modules/jquery/dist/jquery.min.js",
+            "./assets/src/js/vendor/iconify.js",
+        ])
+        .pipe(concat("vendors.js"))
+        .pipe(gulp.dest("./assets/js"));
     cb();
 };
 
@@ -47,7 +56,9 @@ const buildHtml = (cb) => {
 };
 
 const buildAssets = () => {
-    return gulp.src(["./assets/**", "!./assets/src/**"]).pipe(gulp.dest("./build/assets"));
+    return gulp
+        .src(["./assets/**", "!./assets/src/**"])
+        .pipe(gulp.dest("./build/assets"));
 
     cb();
 };
@@ -56,8 +67,14 @@ function liveServerTask(cb) {
     // browserSync.init({
     //     proxy: "127.0.0.1/",
     // });
-    gulp.watch([sassSrc + "**/*.scss"]).on("change", series(sassTask, cssConcatExternalTask));
-    gulp.watch(["./assets/src/js/main.js"]).on("change", series(mainScriptsTask));
+    gulp.watch([sassSrc + "**/*.scss"]).on(
+        "change",
+        series(sassTask, cssConcatExternalTask)
+    );
+    gulp.watch(["./assets/src/js/main.js"]).on(
+        "change",
+        series(mainScriptsTask, vendorScriptsTask)
+    );
     // gulp.watch("./**/*.html").on("change", browserSync.reload);
     cb();
 }

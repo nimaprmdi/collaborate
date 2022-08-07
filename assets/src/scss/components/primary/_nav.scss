@@ -1,3 +1,495 @@
 /*------------------------------------*\
   #Navigation component
 \*------------------------------------*/
+.c-nav {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @include mq($from: tablet) {
+        width: auto;
+        align-items: center;
+    }
+}
+
+.c-nav__menu-link {
+    text-decoration: none;
+    color: $collaborate_white;
+
+    @include mq($from: tablet) {
+        color: $collaborate_primary_color;
+    }
+
+    &:hover,
+    &:focus {
+        font-weight: 700;
+    }
+}
+
+.c-nav__list.is-hidden {
+    opacity: 0;
+}
+
+.c-nav.is-open {
+    .c-nav__list {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .c-nav__toggle.c-nav__toggle--burger:after,
+    .c-nav__toggle.c-nav__toggle--burger:before,
+    .c-nav__toggle.c-nav__toggle--burger span {
+        background: pink;
+    }
+
+    .c-nav__toggle.c-nav__toggle--burger span:before {
+        background: pink;
+    }
+}
+
+.c-nav.is-open {
+    .c-nav__list {
+        display: block;
+    }
+
+    .c-nav__toggle {
+        right: rem(16px);
+        top: rem(40px);
+        position: fixed;
+        z-index: 155;
+
+        @include mq($from: tablet) {
+            top: rem(0px);
+            right: rem(24px);
+        }
+    }
+}
+
+.c-nav__list {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 150;
+    display: none;
+
+    @include mq($from: tablet) {
+        display: flex;
+        width: max-content;
+        height: auto;
+        position: relative;
+    }
+}
+
+.c-nav__arrow {
+    display: none;
+}
+
+/*------------------------------------*\
+#Navigation Scope
+\*------------------------------------*/
+.s-nav__list {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 45px;
+    text-align: center;
+    margin-top: rem(108px);
+
+    @include mq($from: tablet) {
+        margin-top: 0px;
+    }
+
+    .menu-item.current-menu-item > .menu-item__link {
+        color: red;
+    }
+
+    .current_page_parent > .menu-item__link {
+        color: red;
+    }
+
+    .menu-item {
+        .menu-item__link {
+            @include mq($until: tablet) {
+                color: blue !important;
+            }
+        }
+    }
+
+    li {
+        display: block;
+        position: relative;
+        margin-bottom: 39px;
+        text-transform: capitalize;
+
+        @include mq($from: tablet) {
+            display: inline-block;
+            margin-left: 39px;
+            margin-bottom: 0px;
+
+            &:hover {
+                .sub-menu {
+                    display: block;
+                }
+            }
+        }
+
+        &:hover {
+            .sub-menu {
+                display: block;
+                margin-bottom: 24px;
+            }
+        }
+
+        &:focus-within {
+            .sub-menu {
+                display: block;
+            }
+        }
+
+        &:last-child {
+            // Edit position of last sub menu items
+            .sub-menu {
+                .sub-menu {
+                    z-index: 5;
+                    position: absolute;
+                    top: 52px;
+                    left: 10% !important;
+
+                    .sub-menu {
+                        margin-left: 0px;
+
+                        .sub-menu {
+                            margin-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.c-nav__search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include mq($from: tablet) {
+        display: flex;
+    }
+}
+
+.c-nav__search-button {
+    border: none;
+    font-size: rem(18px);
+    padding: 0px;
+    color: red;
+    display: flex;
+    align-items: center;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: transparent;
+        border: none;
+        color: red;
+    }
+
+    @include mq($from: tablet) {
+        padding-left: rem(48px);
+        color: green;
+    }
+}
+
+/*------------------------------------*\
+  #Sub menus
+\*------------------------------------*/
+.sub-menu {
+    display: none;
+    height: max-content;
+    left: 30%;
+    top: -5px;
+    min-width: 100%;
+    max-width: max-content;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s all;
+    position: static;
+    margin-left: 0px;
+    margin-top: 24px;
+    padding-left: 0px;
+    padding-right: 23px;
+    text-align: center;
+    z-index: 90;
+
+    @include mq($from: tablet) {
+        min-width: rem(200px);
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: left;
+        background-color: yellow;
+        left: 50%;
+        top: rem(25px);
+        transform: translate(-50%, 0%);
+        padding: rem(8px 0px);
+    }
+
+    li {
+        margin-bottom: rem(20px);
+        padding-top: 0px;
+        display: block;
+        text-transform: capitalize;
+        text-align: center;
+
+        @include mq($from: tablet) {
+            margin-left: 0px;
+            margin-bottom: 0px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            background-color: yellow;
+        }
+    }
+
+    .menu-item {
+        @include mq($until: tablet) {
+            width: 100%;
+            text-align: center;
+        }
+
+        .menu-item__link {
+            display: block;
+            width: 100%;
+            font-size: rem(14px);
+            line-height: rem(18px);
+            color: pink;
+
+            @include mq($until: tablet) {
+                width: max-content;
+                display: inline-block;
+            }
+
+            @include mq($from: tablet) {
+                font-size: rem(16px);
+            }
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: red !important;
+            }
+        }
+    }
+
+    .sub-menu {
+        top: 20px;
+        left: 100% !important;
+        transform: translate(0%, 0%);
+        margin-top: 0px;
+        margin-left: 0px;
+        display: none !important;
+
+        @include mq($from: tablet) {
+            display: block !important;
+        }
+
+        .sub-menu {
+            top: 100% !important;
+            left: 0% !important;
+            transform: translate(0%, 0%);
+
+            .sub-menu {
+                z-index: 5;
+
+                .sub-menu {
+                    display: block !important;
+                    position: absolute;
+                    margin-left: 0px;
+
+                    .sub-menu {
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*------------------------------------*\
+  #Menu items (li)
+\*------------------------------------*/
+.menu-item {
+    position: relative;
+    list-style-type: none;
+    text-transform: capitalize;
+
+    // hover on li and change sub menus
+    &:hover > .sub-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    // focus on li and change sub menus
+    &:focus-within > .sub-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.s-nav__list > .menu-item > .menu-item__link {
+    padding: 0px;
+}
+
+.s-nav__list > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu {
+    transform: translate(30%, 0%);
+
+    .sub-menu {
+        transform: translate(30%, 0%);
+    }
+}
+
+.s-nav__list
+    > .menu-item:last-child
+    > .sub-menu
+    > .menu-item
+    > .sub-menu
+    > .menu-item
+    > .sub-menu {
+    transform: translate(0%, 0%);
+    .sub-menu {
+        transform: translate(0%, 0%);
+    }
+}
+
+.menu-item__link {
+    text-decoration: none;
+    text-transform: capitalize;
+
+    @include mq($from: tablet) {
+        padding: 16px 16px;
+        width: 100%;
+        height: 100%;
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        @include mq($until: tablet) {
+            outline: gray solid 1px;
+        }
+    }
+}
+
+/*------------------------------------*\
+#Burger Button
+\*------------------------------------*/
+
+.c-nav__toggle {
+    @include mq($from: tablet) {
+        display: none;
+    }
+}
+
+.c-nav__toggle.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.c-nav__toggle {
+    padding: 0;
+    margin: 0;
+    width: 35px;
+    height: 20px;
+    border: none;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border: none !important;
+    z-index: 140;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: transparent;
+        outline: transparent solid 1px;
+    }
+}
+
+.c-nav__toggle.c-nav__toggle--burger:after,
+.c-nav__toggle.c-nav__toggle--burger:before,
+.c-nav__toggle.c-nav__toggle--burger span {
+    width: 100%;
+    height: 2px;
+    border-radius: 0px;
+    position: absolute;
+    display: block !important;
+    background: $collaborate_dark_400_color;
+}
+.c-nav__toggle.c-nav__toggle--burger:after,
+.c-nav__toggle.c-nav__toggle--burger:before {
+    content: "";
+    transition: 0.3s width 0.4s;
+}
+.c-nav__toggle.c-nav__toggle--burger:after {
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    height: 1px;
+}
+.c-nav__toggle.c-nav__toggle--burger:before {
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 1.5px;
+}
+.c-nav__toggle.c-nav__toggle--burger span {
+    top: 55%;
+    margin-top: -1.5px;
+    height: 1px;
+    transition: transform 0.3s;
+}
+.c-nav__toggle.c-nav__toggle--burger span:before {
+    content: "";
+    background: $collaborate_dark_400_color;
+    width: 100%;
+    height: 1px;
+    border-radius: 1px;
+    position: absolute;
+    left: 0px;
+    transition: transform 0.3s;
+}
+.c-nav__toggle.c-nav__toggle--burger.on:after {
+    transition: all 0.2s;
+    width: 0%;
+    left: 0px;
+}
+.c-nav__toggle.c-nav__toggle--burger.on:before {
+    transition: all 0.2s;
+    width: 0%;
+    right: 0px;
+}
+.c-nav__toggle.c-nav__toggle--burger.on span {
+    transform: rotate(45deg);
+    transition: 0.3s transform 0.4s;
+    height: 1px;
+}
+.c-nav__toggle.c-nav__toggle--burger.on span:before {
+    transform: rotate(-90deg);
+    transition: 0.3s transform 0.4s;
+}
+
+.c-nav__menu-item {
+    color: $collaborate_white;
+}

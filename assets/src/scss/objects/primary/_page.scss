@@ -1,0 +1,18 @@
+.o-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.o-page__container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 105px);
+    width: 100%;
+
+    @include mq($from: tablet) {
+        max-width: 100%;
+    }
+}

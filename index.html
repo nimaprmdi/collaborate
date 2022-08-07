@@ -1,154 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Collabortae theme</title>
-    <script
-      src="https://kit.fontawesome.com/6225553e61.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <link rel="stylesheet" href="./assets/css/footer.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <div class="nav__wrapper">
-            <a href="#" class="app-logo">
-              <img
-                src="./assets/images/header-logo.svg"
-                alt="Camping Web"
-                class="app-logo__img"
-              />
-            </a>
-            <ul class="menu">
-              <li class="menu__item">
-                <a href="#" class="menu__link menu__link--active">Home</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">instructores</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Comunidad</a>
-              </li>
-              <li class="menu__item">
-                <a href="/routines.html" class="menu__link">Routines</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Contacto</a>
-              </li>
-            </ul>
-          </div>
-          <div class="header__links">
-            <a href="#" class="header__link">Registrate</a>
-            <a href="#" class="header__link header__link--border"
-              >iniciar sesion</a
-            >
-          </div>
-          <div class="nav__btn">
-            <span class="nav__btn-line"></span>
-          </div>
-        </nav>
-      </div>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Collabortae theme</title>
 
-    <div class="c-hero">
-      <h1 class="c-hero__title text-massive">Your body is art</h1>
-      <h1 class="c-hero__title__secondary">move for yourself</h1>
-    </div>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <header id="masthead" class="c-header">
+            <div class="c-header__menu">
+                <div class="c-header__nav">
+                    <div class="c-header__branding js-header__branding">
+                        <img src="./assets/images/header-logo.svg" alt="menu-logo" />
+                    </div>
+                    <!-- .site-branding -->
 
-    <div class="c-goals">
-      <h2 class="c-goals__title">Our goals</h2>
+                    <nav class="c-nav" id="site-navigation">
+                        <button
+                            class="c-nav__toggle c-nav__toggle--burger js-nav__toggle"
+                            aria-controls="primary-menu"
+                            aria-expanded="false"
+                            aria-label="primary-menu"
+                        >
+                            <span></span>
+                        </button>
+                        <div class="c-nav__list js-nav__list">
+                            <ul class="s-nav__list nav-menu">
+                                <li class="c-nav__menu-item">
+                                    <a
+                                        class="c-nav__menu-link h5--secondary"
+                                        href="/index.html"
+                                    >
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="c-nav__menu-item">
+                                    <a class="c-nav__menu-link h5--secondary" href="#">
+                                        Instructors
+                                    </a>
+                                </li>
+                                <li class="c-nav__menu-item">
+                                    <a class="c-nav__menu-link h5--secondary" href="#">
+                                        Community
+                                    </a>
+                                </li>
+                                <li class="c-nav__menu-item">
+                                    <a
+                                        class="c-nav__menu-link h5--secondary"
+                                        href="/routines.html"
+                                    >
+                                        Routines
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- #site-navigation -->
+                </div>
 
-      <div class="c-goals__collaborate">
-        <div class="c-goals__item">
-          <img
-            class="c-goals__image"
-            src="./assets/images/goals/hand-love.svg"
-            alt="hand-love"
-          />
+                <div class="c-header__cta">
+                    <a href="#" class="o-btn o-btn--has-right-space">Sign up</a>
+                    <a href="#" class="o-btn o-btn--secondary">Log in</a>
+                </div>
+            </div>
+            <!-- .c-header__menu -->
+        </header>
+        <!-- #masthead -->
 
-          <h4 class="c-goals__desc h4--small">Learn to love yourself</h4>
+        <div id="page" class="o-page">
+            <div class="o-page__container">
+                <div class="c-hero">
+                    <h1 class="c-hero__title text-massive">Your body is art</h1>
+                    <h1 class="c-hero__title__secondary">move for yourself</h1>
+                </div>
+
+                <div class="c-goals">
+                    <h2 class="c-goals__title">Our goals</h2>
+
+                    <div class="c-goals__collaborate">
+                        <div class="c-goals__item">
+                            <img
+                                class="c-goals__image"
+                                src="./assets/images/goals/hand-love.svg"
+                                alt="hand-love"
+                            />
+
+                            <h4 class="c-goals__desc h4--small">
+                                Learn to love yourself
+                            </h4>
+                        </div>
+                        <div class="c-goals__item">
+                            <img
+                                class="c-goals__image"
+                                src="./assets/images/goals/holding-hands.svg"
+                                alt="community"
+                            />
+
+                            <h4 class="c-goals__desc h4--small">
+                                Create a united community
+                            </h4>
+                        </div>
+                        <div class="c-goals__item">
+                            <img
+                                class="c-goals__image"
+                                src="./assets/images/goals/muscles.svg"
+                                alt="muscles"
+                            />
+
+                            <h4 class="c-goals__desc h4--small">
+                                Increase our confidence
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c-join-us">
+                    <a href="#" class="o-btn o-btn--wide">Join Now</a>
+
+                    <p class="c-join-us__title c-join-us__title--space-top h2">
+                        Move because we love each other,
+                    </p>
+                    <p class="c-join-us__title h2">
+                        Not because we hate each
+                        <span class="c-join-us__colorful">other.</span>
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="c-goals__item">
-          <img
-            class="c-goals__image"
-            src="./assets/images/goals/holding-hands.svg"
-            alt="community"
-          />
 
-          <h4 class="c-goals__desc h4--small">Create a united community</h4>
-        </div>
-        <div class="c-goals__item">
-          <img
-            class="c-goals__image"
-            src="./assets/images/goals/muscles.svg"
-            alt="muscles"
-          />
+        <footer id="colophon" class="c-footer">
+            <div class="c-footer__container">
+                <div class="c-footer__logo">
+                    <img
+                        class="c-footer__logo-img"
+                        src="./assets/images/logo-footer.svg"
+                        alt="footer-logo"
+                    />
+                </div>
 
-          <h4 class="c-goals__desc h4--small">Increase our confidence</h4>
-        </div>
-      </div>
-    </div>
+                <div class="c-footer__social">
+                    <a class="c-footer__social-link" href="#" target="_blank">
+                        <span
+                            class="c-footer__social-icon iconify"
+                            data-icon="akar-icons:instagram-fill"
+                        ></span>
+                    </a>
 
-    <div class="c-join-us">
-      <a href="#" class="o-btn o-btn--wide">Join Now</a>
+                    <a class="c-footer__social-link" href="#" target="_blank">
+                        <span
+                            class="c-footer__social-icon iconify"
+                            data-icon="cib:facebook-f"
+                        ></span>
+                    </a>
 
-      <p class="c-join-us__title c-join-us__title--space-top h2">
-        Move because we love each other,
-      </p>
-      <p class="c-join-us__title h2">
-        Not because we hate each <span class="c-join-us__colorful">other.</span>
-      </p>
-    </div>
+                    <a class="c-footer__social-link" href="#" target="_blank">
+                        <span
+                            class="c-footer__social-icon iconify"
+                            data-icon="akar-icons:twitter-fill"
+                        ></span>
+                    </a>
+                </div>
 
-    <footer class="footer">
-      <div class="footer-content">
-        <img
-          src="./assets/images/logo-footer.svg"
-          alt="Camping Web"
-          class="footer-logo__img"
-        />
-      </div>
+                <div class="c-footer__buttons">
+                    <a href="#" class="o-btn">Sign up</a>
+                    <a href="#" class="o-btn o-btn--secondary">Log in</a>
+                </div>
+            </div>
+        </footer>
+        <!-- #colophon -->
 
-      <div class="icon">
-        <ul class="socials">
-          <li>
-            <a href="#"
-              ><img
-                class="footer-social__icon"
-                src="./assets/images/icons/insta.svg"
-                alt="insta icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                class="footer-social__icon"
-                src="./assets/images/icons/twit.svg"
-                alt="twit icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                class="footer-social__icon"
-                src="./assets/images/icons/facebook.svg"
-                alt="facebook icon"
-            /></a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="header__btn">
-        <a href="#" class="header__btns">Registrate</a>
-        <a href="#" class="header__btns header__link--border">iniciar sesion</a>
-      </div>
-    </footer>
-  </body>
+        <script src="./assets/js/vendors.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>

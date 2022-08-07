@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    gap: 10px;
     @include mq($from: tablet) {
         margin-top: 114px;
     }
@@ -47,14 +47,16 @@
 .c-routines__posts {
     width: 100%;
     margin-top: 50px;
-    padding: 0px 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
     @include mq($from: tablet) {
         margin-top: 150px;
+    }
 
+    @include mq($from: wide-xbg) {
+        width: calc(100% - 200px);
         padding: 0px 100px;
     }
 }

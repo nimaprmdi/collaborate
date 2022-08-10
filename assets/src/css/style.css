@@ -1363,6 +1363,31 @@ h6 {
 /*------------------------------------*\
   #Profile
 \*------------------------------------*/
+.c-instructors__cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.c-instructors__card {
+  display: flex;
+  align-items: center;
+  background-color: #81c0c5;
+  width: 357px;
+  height: 114px;
+  border-radius: 7px;
+  margin: 40px;
+}
+
+.c-instructors__image-card {
+  width: 93px;
+  height: 93px;
+  border-radius: 100%;
+  margin: 0 15px 0 15px;
+}
+
 /*------------------------------------*\
   #Button ( Primary )
 \*------------------------------------*/
@@ -1562,31 +1587,6 @@ input[type=submit]:active {
 /*------------------------------------*\
   #Utils
 \*------------------------------------*/
-.c-instructors__cards {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 100px;
-}
-
-.c-instructors__card {
-  display: flex;
-  align-items: center;
-  background-color: #81C0C5;
-  width: 357px;
-  height: 114px;
-  border-radius: 7px;
-  margin: 40px;
-}
-
 .m-0 {
   margin: 0;
-}
-
-.c-instructors__image-card {
-  width: 93px;
-  height: 93px;
-  border-radius: 100%;
-  margin: 0 15px 0 15px;
 }

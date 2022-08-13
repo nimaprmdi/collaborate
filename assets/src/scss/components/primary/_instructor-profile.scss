@@ -1,0 +1,128 @@
+.c-instructor-profile{
+    display: flex;
+    justify-content: center;
+    padding: 0rem 6.25rem;
+    margin: 100px auto;
+}
+
+.c-instructor-profile__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.c-instructor-profile__profile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-instructor-profile__image-profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.c-instructor-profile__profile-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.c-instructor-profile__profile-name{
+    color: #00828F;
+    margin: 0;
+}
+
+.c-instructor-profile__profile-specialty{
+    color: #38BAC5;
+    margin: 13px 0;
+}
+
+.c-instructor-profile__profile-biography{
+    font-size: 25px;
+    color: #004B62;
+    line-height: 36px;
+    margin: 0;
+}
+
+.c-instructor-profile__title{
+    margin: 0;
+    text-align: center;
+    color: #00828f;
+    margin-top: 110px;
+}
+
+.c-instructor-profile__posts{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.c-instructor-profile__post{
+    width: 360px;
+    height: 300px;
+    margin: 39px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.c-instructor-profile__post img{
+    width: 100%;
+}
+
+.c-instructor-profile__post-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.c-instructor-profile__post-avatar{
+    width: 70px;
+    max-width: 70px;
+    margin-left: 18px;
+}
+
+.c-instructor-profile__post-avatar img{
+    max-width: 70px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.c-instructor-profile__post-context{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 18px;
+}
+
+.c-instructor-profile__post-context h3{
+    color: #f9b401;
+    margin: 0;
+}
+
+.c-instructor-profile__post-context-meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media (max-width: 79.365em) {
+    .c-instructor-profile__profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c-instructor-profile__profile-biography{
+        font-size: 18px;
+    }
+
+    .c-instructor-profile__post{
+        width: 360px;
+        height: 300px;
+    }
+  }

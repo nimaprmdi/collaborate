@@ -58,14 +58,14 @@
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .c-instructor-profile__post{
     width: 360px;
     height: 300px;
-    margin: 39px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    margin-bottom: 65px;
 }
 
 .c-instructor-profile__post img{
